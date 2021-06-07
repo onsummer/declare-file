@@ -1,0 +1,11 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    // 创建 d.ts 文件
+    "declaration": true,
+    // 让 ts 编译器仅创建 ts 类型声明文件而不做其他
+    "emitDeclarationOnly": true,
+    "outDir": "dist"
+  }
+}
